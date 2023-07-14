@@ -2,7 +2,7 @@
 
 In this assignment you will have to implement a very basic login functionality using Express JS.
 
-Create a server using Express that listens to port 8080 and serve the route `\login` for the POST Request.
+Create a server using Express that listens to port 8080 and serve the route `/login` for the POST Request.
 The request body is of form:
 
 ```json
@@ -35,7 +35,7 @@ Your response can be of the following form:
 {"msg":"Invalid Login"}
 ```
 
-Remember to set response status of 403 for any of the unsuccessfull login attempt.
+Remember to set **response status of 403 for any of the unsuccessfull login attempt**.
 
 ### Instruction
 Every thing about the frontend part is already done for you, you just need to write the backend for this frontend. 
